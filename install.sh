@@ -3,7 +3,7 @@
 # 用法：bash <(curl -fsSL http://<地址>/dl/install.sh) TJ-XXXX-XXXX
 set -e
 
-BASE="https://github.com/zilong20260227-ai/dsh-plugin-ai-minutes/releases/download/v0.9.4"
+BASE="https://raw.githubusercontent.com/zilong20260227-ai/dsh-plugin-ai-minutes/refs/heads/main"
 VER="0.9.4"
 INVITE="${1:-}"
 DEST="$HOME/.dsh-plugins/ai-minutes"
